@@ -15,35 +15,15 @@
 <!-- Able Player JavaScript -->
 <script src="build/ableplayer.js"></script>
 
-<!-- Style for this example only -->
-<style>
-  main {
-    position: relative;
-    width: 100%;
-    margin: 0;
-  }
-  #player {
-    float: left;
-    width: 480px;
-    margin: 0;
-  }
-  #transcript {
-    height: 500px;
-    margin: 0;
-    padding-left: 500px;
-  }
-  #transcript div.able-desc {
-    width: 90%;
-  }
-</style>
-
 </head>
 
 <body>
 
-<h1>KPFA Broadcasts: 1-1.mp3</h1>
+<h1>KPFA BROADCASTS: 1-1.mp3</h1>
 
-<!-- to write transcript to an external div, pass id of an empty div via data-transcript-div -->
+
+
+<!-- use the following markup for each media element -->
 <audio id="audio1" width="480" class="ump-media" preload="auto" data-able-player data-skin="2020" data-lyrics-mode data-transcript-title="1-1">
   <source type="audio/mpeg" src="audiofiles/1-1.mp3"/>
   <track kind="captions" src="webvtt/1-1transcript.vtt" srclang="en" label="English"/>
